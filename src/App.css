@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Aguafina+Script&subset=latin-ext');
+
 .App {
+  display: flex;
+  align-items: center;
   text-align: center;
+  justify-content: center;
+  height: 90vh;
 }
 
-.App-logo {
+h1 {
+  font-family: Aguafina Script;
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
+  color: midnightblue;
 }
 
 .App-header {
